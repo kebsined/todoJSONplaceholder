@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(30, 2, 87);
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/* justify-items: center; */
+	margin: 0 auto;
+}
+
+.todoList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px 1px #000;
+	font-size: 45px;
+}
+
+.todo {
+	padding-left: 10px;
+	width: 40rem;
+	list-style: decimal-leading-zero;
+	color: #ffff;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.todo::marker {
+	font-size: 20px;
+	color: blueviolet;
+}
